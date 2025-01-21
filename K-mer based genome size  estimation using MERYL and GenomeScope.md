@@ -48,8 +48,8 @@ Rscript $gs -i ${out}_gt1.hist -k 21 -o ${out}_gt1_gs -n ${out}_gt1 -p 2
 ```
 
 This should be done in a matter of seconds. In the output directory, you should find several `.png` images of the figures that GenomeScope created based on the non-linear model fit to your data, like the one below.
+![[Bf05_gt1_transformed_linear_plot 1 1.png]]
 
-![[Bf05_gt1_transformed_linear_plot 1.png]]
 The key things to take away here are:
 1. `len`, which is the estimated genome size in bp
 2. `aa` and `ab`, which are homozygosity and heterozygosity, respectively
