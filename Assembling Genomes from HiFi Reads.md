@@ -1,3 +1,4 @@
+##### Written by Gen Morinaga Jan 2025
 The main advantage of PacBio's HiFi sequencing platform are its read lengths and accuracy. If the marketing material is anything to go by, you can expect to get reads up to 25 kbp long and 99.9% accurate base calls. For eukaryotic genomes, these qualities are great because these read lengths are long enough to span most (if not all) repetitive elements and the accuracy more or less eliminates the need for assembly polishing.
 
 Numerous programs have been written, or re-written to handle these read types. All of the programs I've used so far have been fairly easy to install, use, and troubleshoot. All of the programs appear to have an active community and developers surrounding it, so support should fine for a little while.

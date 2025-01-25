@@ -1,3 +1,4 @@
+##### Written by Gen Morinaga Jan-2025
 Many genome assemblers require a genome size estimation. This can be achieved in a number of different ways, the easiest of which is to simply look it up [(e.g, for animals)](https://www.genomesize.com/) for your organism or a different, but closely related species. An alternative to this is to do it using K-mers.
 
 To do this, I use [meryl](https://github.com/marbl/meryl) to count K-mers and a genome profiling tool called [GenomeScope](https://github.com/tbenavi1/genomescope2.0)  to get useful estimates like heterozygosity and estimated genome size. 
@@ -48,7 +49,7 @@ Rscript $gs -i ${out}_gt1.hist -k 21 -o ${out}_gt1_gs -n ${out}_gt1 -p 2
 ```
 
 This should be done in a matter of seconds. In the output directory, you should find several `.png` images of the figures that GenomeScope created based on the non-linear model fit to your data, like the one below.
-![genomescope](./images/Bf05_gt1_transformed_linear_plot.png)
+![genomescope](./images/example_transformed_genomescope.png)
 
 The key things to take away here are:
 1. `len`, which is the estimated genome size in bp
