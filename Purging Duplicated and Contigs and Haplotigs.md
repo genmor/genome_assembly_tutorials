@@ -95,7 +95,7 @@ conda activate ./purge_dups
 conda install bioconda::purge_dups
 ```
 
-purge_dups can very easily be turned into a pipeline that requires only input configuration and ran from beginning to end. In fact, IPA's internal purging simply runs purge_dups. The author of the program also has an implementation that only requires editing a configuration file. I won't show how to do this, because I don't think it works all that well. What I show is a little more "manual". 
+purge_dups can very easily be turned into a pipeline that requires only input configuration and ran from beginning to end. In fact, IPA's internal purging simply runs purge_dups. The author of the purge_dups also has an implementation of it that only requires editing a configuration file. I won't show how to do this because I don't think it works all that well. What I show here is a little more "manual". 
 ### Step 1. Map reads to draft assembly
 ```
 asm=/path/to/assembly.fasta
