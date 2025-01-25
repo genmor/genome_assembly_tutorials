@@ -11,6 +11,7 @@ Duplicate sequences erroneously inflate the total genome size of genome assembli
 | Flye      | 2.31              | no           |
 | hifiasm   | 1.80              | yes, default |
 | IPA       | 2.01              | yes, default |
+
 Consider that the reference genome for *[Aedes aegypti](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002204515.2/)* is about 1.3 Gbp (yes, it's really that big). This means that all of the assemblies output straight from the genome assemblers are quite a bit bigger than the conspecific reference. This is also clear if you use a gene content completeness metric like BUSCO:
 
 ![busco_example](/images/example_buscos.png)
