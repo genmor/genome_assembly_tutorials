@@ -1,2 +1,4 @@
 example.assembly filter=lfs diff=lfs merge=lfs -text
 example.hic filter=lfs diff=lfs merge=lfs -text
+exmaple1.assembly filter=lfs diff=lfs merge=lfs -text
+example1.hic filter=lfs diff=lfs merge=lfs -text
